@@ -5,9 +5,9 @@ A Node.js server application that validates student data in a .csv file.
 ## Installation
 
 1. Install Node.js latest version: https://nodejs.org/en 
-2. Installed express, multer, csv-parser
+2. Installed express, multer, csv-parser, axios, nodemailer
     
-    a. In the terminal, cd to your directory and, type 'npm install express multer csv-parser'
+    a. In the terminal, cd to your directory and, type 'npm install express multer csv-parser axios nodemailer'
 
 ## Usage
 1. Inside the terminal, cd to your directory and run, 'node server.js'
@@ -18,6 +18,6 @@ A Node.js server application that validates student data in a .csv file.
     
     a. You can write your test file's name in place of 'Sample_Test_File' in the command.
     
-    b. There should be a log with 'Success' and entries in the csv file, or
+    b. Currently, if you run directly, there would be an 'Internal server error'.
     
-    c. log with 'Error,' if present in the csv file.
+    c. Once the email id and password is changed, the email should be sent successfully.
